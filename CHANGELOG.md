@@ -1,7 +1,7 @@
 # master (will probably be 0.2.9)
 
 * Fix possible crash in `blend.blend_alpha()` if dtype numpy.float128 does not exist.
-
+* Fixed `ReplaceElementwise` always sampling replacement per channel.
 
 # 0.2.8
 
