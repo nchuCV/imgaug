@@ -1,6 +1,8 @@
 # master (will probably be 0.2.9)
 
 * Fix possible crash in `blend.blend_alpha()` if dtype numpy.float128 does not exist.
+* Re-allowed numpy 1.16 in `requirements.txt`.
+* Fixed an error in `draw_text()` due to arrays that could not be set to writeable after drawing the text via PIL.  
 
 
 # 0.2.8
