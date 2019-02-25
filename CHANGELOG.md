@@ -1,6 +1,9 @@
 # master (will probably be 0.2.9)
 
 * Fix possible crash in `blend.blend_alpha()` if dtype numpy.float128 does not exist.
+* Fixed errors in docstring of `parameters.Subtract`.
+* Improved docstring of `multicore.Pool`.
+* Reordered classes in `parameters.py`.
 
 
 # 0.2.8
