@@ -1,6 +1,8 @@
 # master (will probably be 0.2.9)
 
 * Fix possible crash in `blend.blend_alpha()` if dtype numpy.float128 does not exist.
+* Add `_ConcavePolygonRecoverer` to `imgaug.py`.
+* Fixed a division by zero bug in `angle_between_vectors()`.
 
 
 # 0.2.8
